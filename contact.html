@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Tim Albrecht Bootstrap Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm border-bottom py-0 bg-white">
+        <div class="navbar-brand ml-5"> 
+            <h1 class="text-light mx-3">Tim Albrecht</h1>
+        </div>
+        <div class="collapse navbar-collapse ml-auto"> 
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-muted border-right" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted border-right" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-muted" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container border mt-2 bg-white">
+        <h2>Portfolio</h2>
+        
+        <hr>
+
+        <div class="container">
+            <form action="https://formspree.io/TLABootcamp@protonmail.com" method="POST">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Full Name">
+                <br>
+                <label for="taQuestion">Are you a TA?</label>
+                <select id="taQuestion" name="taQuestion">  
+                  <option value="Select">Select</option>  
+                  <option value="yes">Yes</option>
+                  <option value="no">No</option>
+                  <option value="other">I choose not to identify</option>
+                </select>
+                <br>
+                <label for="message">Message</label>
+                <br>
+                <textarea id="message" name="message" placeholder="Please type your message here..." style="height:200px"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            
+            </form>
+        </div>

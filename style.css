@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background-image: url("assets/images/background.png") !important;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.navbar-expand-lg .navbar-light .bg-light {
+    background-color: #4aaaa5 !important;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5 !important;
+}
+
+.About-Me {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    background-color: #4aaaa5 !important;
+    position: relative;
+    margin-top: 20%;
+    margin-left: -5px !important;
+    margin-right: -5px !important;
+}
+
+.container {
+    margin-bottom: 10px !important;
+}
+
+.footer {
+    background-color: #666666 !important;
+    border-top: #4aaaa5 solid 5px !important;
+}
