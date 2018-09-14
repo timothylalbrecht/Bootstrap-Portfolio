@@ -1,3 +1,10 @@
+/*----------------COMMENTS AND REMARKS------------------
+I wasnt really feeling bootstrap when I started this assignment. I could appreciate it for what it is, but the idea of playing around and finding the exact make up of class names vs just adding a little custom css seemed silly...
+That changed when i moved on to the portfolio page. The grid system is intuitive, and knowing the built in rules meant I didnt have to go track down the small issues that seemed to pop out of no where using plan 'ol css. 
+
+I was not able to find a simple, concise way of altering the default colors, so i just used some custom css for our teal color. I tried to limit everything in this file. A few times I wanted margins and the like larger than the 6th level, so added those, as well as most of the contact form unfortunately. Life got in the way this weekend with a plumbing issue, plus some tree removal before hurricane Flo, so I plan on going back and updating the contact form to use the bootstrap class buttons and a few other features. 
+*/
+
 body {
     margin: 0;
     background-image: url("assets/images/background.png") !important;
@@ -18,6 +25,10 @@ p {
     background-color: #4aaaa5 !important;
 }
 
+.navbar-nav {
+    padding-right: 60px !important;
+}
+
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif !important;
     font-weight: bold !important;
@@ -30,10 +41,6 @@ h4 {
     padding: 0px, 10px, 10px, 0px;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.About-Me {
-    
 }
 
 .card-text {
